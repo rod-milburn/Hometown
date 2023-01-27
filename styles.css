@@ -1,0 +1,148 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+fefae0
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 0;
+   
+    font-family:Arial, Helvetica, sans-serif;  
+}
+
+img {
+    width: 100px;
+    object-fit: cover;  
+    transition: transform .2s;  
+}
+
+h4 {
+    font-size: 20px;
+}
+p {
+    text-shadow: 0 0 1px gray;
+}
+
+#hero-section {
+    background: url("/images/London.jpg") center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#hero-title {
+    color: #ffffffef;
+    font-size: 100px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 10px;
+    text-shadow: 10px 0px 0px black;
+    padding:0 0 75px 0;
+  
+  
+    
+}
+
+#hero-text {
+    font-size: 18px;
+    color: #ffffffef;
+    font-size: 1.75em;
+    letter-spacing: 3px ; 
+}
+
+#activities-section {
+    padding: 40px;
+    background-color: #faf3dd;
+    text-align: center;
+   
+}
+
+#activities-section h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+   
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   height:300px;
+}
+
+.activities h4{
+    margin: 25px 20px;
+}
+
+.activities-item img {
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+
+.activities-item img:hover{
+    transform:scale(1.5);
+}
+
+#guide-section {
+    background-color: #cddffd;
+    padding: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#guide-section img {
+    width: 200px;
+    border: 4px solid #a1aaaf;
+    margin-right: 100px;
+    border-radius: 20%;
+}
+
+
+#guide-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#guide-section div  h4{
+    padding-top: 25px;  
+}
+
+#guide-section div h3{
+  padding-bottom: 10px; 
+ 
+}
+#guide-section div p {
+    margin: 0;
+    padding-top:35px ;
+    font-style:oblique;
+    width: 300px;
+    font-size:1.25em; 
+}
+
+footer{
+    background-color: #cccccc;
+    text-align: center;
+    height: 50px;
+    padding: 20px 0 15px 0;
+    font-size: 22px;
+    font-style: italic;
+}
